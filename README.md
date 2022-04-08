@@ -4,9 +4,10 @@
    * [Usage](#usage)
       * [Format](#Format)
       * [Tabellendefinition](#Tabellendefinition)
-   * [Tests](#tests)
-     * [Local](#local)
-     * [Public](#public)
+   * [Datenzusammenhänge](#Datenzusammenhänge)
+   * [Exportmechanismus](#Exportmechanismus)
+     * [Exportkonfiguration im Rimo](#Exportkonfiguration im Rimo)
+   * [Hinweis: Change-Management Schnittstelle MIS-Export](#Hinweis: Change-Management Schnittstelle MIS-Export)
 <!--te-->
 
 # Konzept Rimo R4

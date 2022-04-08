@@ -6,8 +6,9 @@
       * [Tabellendefinition](#Tabellendefinition)
    * [Datenzusammenhänge](#Datenzusammenhänge)
    * [Exportmechanismus](#Exportmechanismus)
-     * [Exportkonfiguration](#Exportkonfiguration)
-   * [Hinweis: Change-Management Schnittstelle MIS-Export](#Hinweis: Change-Management Schnittstelle MIS-Export)
+     * [Exportkonfiguration im Rimo](#Exportkonfiguration-im-Rimo)
+   * [Hinweis: Change-Management Schnittstelle MIS-Export](#Hinweis-Change-Management-Schnittstelle-MIS-Export)
+   * [TOC generation with Github Actions](#toc-generation-with-github-actions)
 <!--te-->
 
 # Konzept Rimo R4

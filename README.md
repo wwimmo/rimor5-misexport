@@ -36,13 +36,12 @@ Liegenschaft und Mieterdaten:
 - verwaltung
 - verwgebiet
 <br><br><br>
-
 # Datenzusammenhänge
-![image.png](/.attachments/image-e42cfd58-1d2a-4cfe-8d3a-c2848d285951.png)
+![DataRelationship](/_grafiken/DataRelationship.png)
 
 # Exportmechanismus
 Der Exportmechanismus kann manuell gesteuert werden. Die Selektionsmaske ist von der Standardschnittstelle MIS-Export vorgegeben:
-![image.png](/.attachments/image-a2a8f785-bf2a-44b2-9e05-c9b8381a8691.png)
+![ExportMechanism](/_grafiken/ExportMechanism.png)
 Die Selektion des Exports kann nur mittels Liegenschaftsnummer eingegrenzt werden. Eine periodische Eingrenzung ist nicht möglich – es werden somit immer sämtliche Datensätze einer Tabelle (inkl. Historydaten) exportiert.
 
 Der Export kann ebenfalls als Job geplant werden.

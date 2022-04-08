@@ -2,7 +2,7 @@
 
 <!--ts-->
 Table of contents
-   * [Usage](#usage)
+   * [Konzept Rimo R4](#Konzept-Rimo)
       * [Format](#Format)
       * [Tabellendefinition](#Tabellendefinition)
    * [Datenzusammenhänge](#Datenzusammenhänge)
@@ -11,7 +11,7 @@ Table of contents
    * [Hinweis: Change-Management Schnittstelle MIS-Export](#Hinweis-Change-Management-Schnittstelle-MIS-Export)
 <!--te-->
 
-# Konzept Rimo R4
+# Konzept Rimo
 Die Schnittstelle MIS-Export exportiert Daten aus Tabellen oder Views, aus Rimo in CSV-Files ins lokale Dateisystem.
 
 ## Format

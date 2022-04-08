@@ -6,7 +6,7 @@
       * [Tabellendefinition](#Tabellendefinition)
    * [Datenzusammenhänge](#Datenzusammenhänge)
    * [Exportmechanismus](#Exportmechanismus)
-     * [Exportkonfiguration im Rimo](#Exportkonfiguration im Rimo)
+     * [Exportkonfiguration](#Exportkonfiguration)
    * [Hinweis: Change-Management Schnittstelle MIS-Export](#Hinweis: Change-Management Schnittstelle MIS-Export)
 <!--te-->
 

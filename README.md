@@ -2,7 +2,7 @@
 
 <!--ts-->
 Table of contents
-   * [Konzept Rimo R4](#Konzept-Rimo)
+   * [Konzept Rimo](#Konzept-Rimo)
       * [Format](#Format)
       * [Tabellendefinition](#Tabellendefinition)
    * [Datenzusammenhänge](#Datenzusammenhänge)

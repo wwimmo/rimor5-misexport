@@ -13,8 +13,8 @@ Table of contents
 
 <!--te-->
 # Derivate zum MIS Export
-[Jarowa](_derivate#readme)
-[Imofix](_derivate#readme)
+- [Jarowa](_derivate#jarowa#readme)
+- [Imofix](_derivate/imofix#readme)
 
 
 # Konzept Rimo

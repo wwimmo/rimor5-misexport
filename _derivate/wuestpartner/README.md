@@ -86,7 +86,7 @@ Somit sind zukünftige Datenerweiterungen derselben Schnittstelle auf einfachste
 Der Export der Daten muss einmalig eingerichtet werden.
 
 ### FTP Verbindung
-Im Rimo kann eine FTP Verbindung (Protokolle wie FTP oder sFTP mit TLS/SSL v3) eingerichtet werden.
+Im Rimo kann eine FTP Verbindung (Protokolle wie FTP oder FTPs mit TLS/SSL v3) eingerichtet werden.
 Die exportierten Daten werden nach dem Export auf diesen Server hochgeladen.
 
 ### Exportpfad

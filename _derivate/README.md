@@ -3,3 +3,4 @@
 - [Imofix](imofix#readme)
 - [Allthings](allthings#readme)
 - [Assetti](assetti#readme)
+- [Assetti](wuestpartner#readme)

@@ -18,7 +18,7 @@ Table of contents
 - [Allthings](_derivate/allthings#readme)
 - [Assetti](_derivate/assetti#readme)
 - [Wüest Partner](_derivate/wuestpartner#readme)
-- [Reamis](_derivate/Reamis#readme)
+- [Reamis](_derivate/reamis#readme)
 
 
 # Konzept Rimo

@@ -53,7 +53,7 @@ Personendaten
 
 <br><br><br>
 # Datenzusammenhänge
-![DataRelationship](/_grafiken/DataRelationship_Allthings.png)
+![DataRelationship](/_grafiken/DataRelationship_allthings.png)
 
 # Exportmechanismus
 Der Exportmechanismus kann manuell gesteuert werden. Die Selektionsmaske ist von der Standardschnittstelle MIS-Export vorgegeben:

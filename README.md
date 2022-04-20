@@ -16,6 +16,7 @@ Table of contents
 - [Jarowa](_derivate/jarowa#readme)
 - [Imofix](_derivate/imofix#readme)
 - [Allthings](_derivate/allthings#readme)
+- [Assetti](_derivate/assetti#readme)
 
 
 # Konzept Rimo

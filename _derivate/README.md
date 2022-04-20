@@ -1,3 +1,3 @@
 # MIS Export Erweiterungen:
 - [Jarowa](jarowa#readme)
-- [Impfix](imofix#readme)
+- [Imofix](imofix#readme)

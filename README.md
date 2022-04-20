@@ -17,6 +17,7 @@ Table of contents
 - [Imofix](_derivate/imofix#readme)
 - [Allthings](_derivate/allthings#readme)
 - [Assetti](_derivate/assetti#readme)
+- [Wüest Partner](_derivate/wuestpartner#readme)
 
 
 # Konzept Rimo

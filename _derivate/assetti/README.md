@@ -56,9 +56,12 @@ Alternativ zu den Kontosaldodaten (vAssettifibubuchsaldo) können auch Einzelbuc
 Als Standard werden Finanzdaten jeweils wie folgt exportiert:
 Der Betrag (Saldo) wird in dieser View pro Monat (vom ersten Tag des Monats bis zum letzten Tag des Monats) pro Konto kumuliert.
 
-<br><br><br>
 # Datenzusammenhänge
-![DataRelationship](/_grafiken/DataRelationship_assetti.png)
+**Mieterspiegel** <br>
+![DataRelationship](/_grafiken/DataRelationship_assetti_mieterspiegel.png)
+
+**Finanzdaten**<br>
+![DataRelationship](/_grafiken/DataRelationship_assetti_finanzdaten.png)
 
 # Exportmechanismus
 Der Exportmechanismus kann manuell gesteuert werden. Die Selektionsmaske ist von der Standardschnittstelle MIS-Export vorgegeben:

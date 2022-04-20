@@ -58,6 +58,8 @@ Die View vWPfibubuchsaldo ist keine Rohdatenview, sondern gruppiert die Daten au
 fibunr, jahr, monat, kontonr, kontobezeichnung, betrag
 Der **Betrag (Saldo)** wird in dieser View **pro Monat** (vom ersten Tag des Monats bis zum letzten Tag des Monats) pro Konto kumuliert.
 
+Die benötigten View können per Script [CreateViewsWP_ANY.sql](CreateViewsWP_ANY.sql) hinzugefügt werden.
+
 **Liegenschaft- und Mieterdaten**<br>
 # Datenzusammenhänge
 ![DataRelationship](/_grafiken/DataRelationship_wuestpartner_Liegenschaft_Mieterdaten.png)

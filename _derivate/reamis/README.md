@@ -67,9 +67,10 @@ Die Tabelle vReamisfibubuchungen enthält sämtliche Einzelbuchungen der selekti
 Im Rimo wird auf Stufe Fibukonto noch ein freies Feld für die Vergabe einer Projektnummer definiert. Die Projektnummer wird mit der Tabelle vReamis-fibukonto1 im Feld string01 exportiert.
 
 Die benötigten View können per Script 
-  [vReamis_Viewscripts_2Jahrezurück.sql](vReamis_Viewscripts_2Jahrezurück.sql) 
-  [vReamis_Viewscripts_3Jahrezurück.sql](vReamis_Viewscripts_3Jahrezurück.sql) 
-  [vReamis_Viewscripts_4Jahrezurück.sql](vReamis_Viewscripts_4Jahrezurück.sql) 
+- [vReamis_Viewscripts_2Jahrezurück.sql](vReamis_Viewscripts_2Jahrezurück.sql) 
+- [vReamis_Viewscripts_3Jahrezurück.sql](vReamis_Viewscripts_3Jahrezurück.sql) 
+- [vReamis_Viewscripts_4Jahrezurück.sql](vReamis_Viewscripts_4Jahrezurück.sql) 
+
 hinzugefügt werden.
 
 # Datenzusammenhänge
@@ -90,7 +91,7 @@ Die Selektion des Exports kann nur mittels Liegenschaftsnummer eingegrenzt werde
 Der Export kann ebenfalls als Job geplant werden.
 
 ## Exportkonfiguration im Rimo
-Im Rimo wird folgende Exportkonfiguration (SYSTEM\MISEXP2) benötigt:
+Im Rimo wird folgende Exportkonfiguration (SYSTEM\MISEXP) benötigt:
 - Name der Tabellen, welche exportiert werden sollen.
 Hier werden die Daten definiert, welche exportiert werden (siehe vorherige Kapitel). 
 

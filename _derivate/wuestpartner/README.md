@@ -60,8 +60,8 @@ Der **Betrag (Saldo)** wird in dieser View **pro Monat** (vom ersten Tag des Mon
 
 Die benötigten View können per Script [CreateViewsWP_ANY.sql](CreateViewsWP_ANY.sql) hinzugefügt werden.
 
-**Liegenschaft- und Mieterdaten**<br>
 # Datenzusammenhänge
+**Liegenschaft- und Mieterdaten**<br>
 ![DataRelationship](/_grafiken/DataRelationship_wuestpartner_Liegenschaft_Mieterdaten.png)
 
 **Finanzdaten:**<br>

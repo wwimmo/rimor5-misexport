@@ -15,7 +15,7 @@ Table of contents
    * [Hinweis: Change-Management Schnittstelle MIS-Export](#Hinweis-Change-Management-Schnittstelle-MIS-Export)
 <!--te-->
 # Anforderungen
-Aus Rimo sollen Daten in das System von Jarowa exportiert werden. Die Daten sind im Format CSV aufbereitet. Die CSV Dateien sollen automatisiert exportiert und an Jarowa geschickt werden.
+Aus Rimo sollen Daten in das System von Imofix exportiert werden. Die Daten sind im Format CSV aufbereitet. Die CSV Dateien sollen automatisiert exportiert und an Imofix geschickt werden.
 
 # Konzept Rimo
 Als Basis für diese Schnittstelle sollen folgende Standardfunktionalitäten aus Rimo verwendet werden:

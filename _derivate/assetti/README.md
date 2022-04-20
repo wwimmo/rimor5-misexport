@@ -56,6 +56,9 @@ Alternativ zu den Kontosaldodaten (vAssettifibubuchsaldo) können auch Einzelbuc
 Als Standard werden Finanzdaten jeweils wie folgt exportiert:
 Der Betrag (Saldo) wird in dieser View pro Monat (vom ersten Tag des Monats bis zum letzten Tag des Monats) pro Konto kumuliert.
 
+Die benötigten View können per Script [CreateViewsAssetti.sql](CreateViewsAssetti.sql) hinzugefügt werden.
+
+
 # Datenzusammenhänge
 **Mieterspiegel** <br>
 ![DataRelationship](/_grafiken/DataRelationship_assetti_mieterspiegel.png)

@@ -19,7 +19,7 @@ Table of contents
 Aus Rimo sollen Daten in das System von IAZI exportiert werden. Die Rimo Daten kommen als ganze Tabellensätze und sind grösstenteils nicht aufbereitet (Ausnahme Finanzdaten).
 
 # Anforderungen
-Export von Datentabellen aus Rimo in Reamis. Die Daten sind im Format CSV aufbereitet. Die CSV Dateien sollen automatisiert exportiert und an Reamis geschickt werden.
+Export von Datentabellen aus Rimo in IAZI. Die Daten sind im Format CSV aufbereitet. Die CSV Dateien sollen automatisiert exportiert und an Reamis geschickt werden.
 Die Rimo Daten kommen als ganze Tabellensätze und sind grösstenteils nicht aufbereitet (Ausnahme Finanzdaten wegen Einschränkung auf die letzten drei Jahre).
 Der Datenumfang und Anforderungsbeispiele sind gemäss Mail vom 29.03.2016 zusammengestellt.
 

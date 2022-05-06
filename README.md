@@ -19,7 +19,7 @@ Table of contents
 - [Assetti](_derivate/assetti#readme)
 - [Wüest Partner](_derivate/wuestpartner#readme)
 - [Reamis](_derivate/reamis#readme)
-- [IAZI](_derivate/iazi0#readme)
+- [IAZI](_derivate/iazi#readme)
 
 
 # Konzept Rimo

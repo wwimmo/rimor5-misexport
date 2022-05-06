@@ -5,3 +5,4 @@
 - [Assetti](assetti#readme)
 - [Wüest Partner](wuestpartner#readme)
 - [Reamis](reamis#readme)
+- [IAZI](iazi#readme)

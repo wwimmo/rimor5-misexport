@@ -6,3 +6,4 @@
 - [Wüest Partner](wuestpartner#readme)
 - [Reamis](reamis#readme)
 - [IAZI](iazi#readme)
+- [Vaudoise](vaudoise#readme)

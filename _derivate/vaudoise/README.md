@@ -153,7 +153,7 @@ Mapping Rimo R4 Daten zu Vorgaben Vaudoise:
 | mieteinheit | File: mietfall Spalte: objnr |  |
 | mietverhaeltnis_mietbeginn | File: mietfall Spalte: einzug |  |
 | datum | File: mieterop.csv Spalte: faelldat | Jeweils der letzte Tag des Monats gemäss dem ältesten vorhanden „faelldat“-Eintrag. |
-| prozedur_status | File: mieter.csv Spalte: freieFelderdicid01 | Wertetabelle gemäss Vorgabe: {1} Anklage, {2} Kündigung, {3} Kündigung-Anklage, {4} Räumung, {5} Ausstellung von Verlustscheinen |
+| prozedur_status | File: mieter.csv Spalte: freieFelderdicid01 | Wertetabelle gemäss Vorgabe: <br>{1} Anklage<br>{2} Kündigung<br>{3} Kündigung-Anklage<br>{4} Räumung<br>{5} Ausstellung von Verlustscheinen |
 | abgeschlossen_am | File: mieter.csv Spalte: date01 |  |
 | betrag | File: mieter.csv Spalte: betrag01 |  |
 | notiz | File: mieter.csv Spalte: string01 |  |
@@ -175,6 +175,17 @@ Tabelle „mieter“ (file:mieter.csv)
 
 ## Spezifikation Daten zu „finanzlage.csv“
 Mapping Rimo R4 Daten zu Vorgaben Vaudoise:
+| Spalte Vaudoise (streitfall.csv) |File.Spalte Rimo R4 MIS-Export|Bemerkung /Bedingung|
+|:----------|:-------------|:------|
+| ueberbauung | File: lieg.csv Spalte: liegnr |  |
+| mieteinheit | File: objekt Spalte: objnr |  |
+| mietverhaeltnis_mietbeginn | File: mietfall Spalte: einzug |  |
+| abweichung_art | File: VmieteropVaudoise.csv Spalte: abweichung_art | Anhand mieterop.soll<br>Wert N = 1 Vorauszahlung<br>Wert Y = 2 Verzögerung |
+| abweichung_typ | File: VmieteropVaudoise.csv Spalte: faeilligkeitsdatum | Anhand mieterop.buchart, mieterkum.mzbestnr, mzbest.mzbartnr<br>Wenn Buchungsart = 20,21,22,23,24 dann soll dieser Wert wie folgt aufgeschlüsselt werden:<br>•	mzbart = 1 = 100<br>•	mzbart = 11 – 89 = 200<br>Für alle Buchungsarten ausser 38,41,50-59 gilt:<br>•	= 100<br>Für buchart 38 und 41 gilt:<br>•	= 200<br>Für buchart 50-59 gilt:<br>•	= 700 |
+| faelligkeitsdatum | File: VmieteropVaudoise.csv Spalte: abweichung_art | Letzter Tag des Monats von mieterop.faelldat |
+| mwst_satz | File: VmieteropVaudoise.csv Spalte: mwst_satz | leer |
+| betrag | File: VmieteropVaudoise.csv Spalte: betrag | Totalbetrag pro faelligkeitsdatum, abweichung_art und abweichung_typ und pro mieter |
+| notiz | File: VmieteropVaudoise.csv Spalte: notiz | leer |
 
 
 Die Daten zur Finanzlage werden somit in einer View von Rimo R4 vorbereitet, da es zur Dateninterpretation tiefergreifende Informationen aus dem Rimo R4 Daten-Schema braucht.

@@ -7,7 +7,9 @@ Table of contents
    * [Konzept Rimo](#Konzept-Rimo)
       * [Format](#Format)
       * [Tabellendefinition](#Tabellendefinition)
-   * [Datenzusammenhänge](#Datenzusammenhänge)
+      * [Spezifikation streitfall](#Spezifikation-Daten-zu-streitfallcsv)
+      * [Spezifikation finanzlage](#Spezifikation-Daten-zu-finanzlagecsv)
+* [Datenzusammenhänge](#Datenzusammenhänge)
    * [Exportmechanismus](#Exportmechanismus)
      * [FTP Verbindung](#FTP-Verbindung)
        * [Exportkonfiguration im Rimo](#Exportkonfiguration-im-Rimo)
@@ -136,9 +138,7 @@ Folgende Tabellen werden für den Export definiert.
 - **VmieteropVaudoise**
 
 Die View VmieteropVaudoise wird speziell auf der Datenbank erstellt und ist keine standardisierte Tabelle/View auf der Rimo Datenbank.
-Die benötigten View können per Script 
-- [VmieteropVaudoise.sql](VmieteropVaudoise.sql) 
-hinzugefügt werden.
+Die benötigten View können per Script [VmieteropVaudoise.sql](VmieteropVaudoise.sql) hinzugefügt werden.
 
 # Datenzusammenhänge
 **Export-Tabellen Vaudoise**<br>
@@ -147,6 +147,16 @@ hinzugefügt werden.
 ## Spezifikation Daten zu „streitfall.csv“
 Mapping Rimo R4 Daten zu Vorgaben Vaudoise:
 
+| Spalte Vaudoise (streitfall.csv) |File.Spalte Rimo R4 MIS-Export|Bemerkung /Bedingung|
+|:----------|:-------------|:------|
+| ueberbauung | File: mietfall.csv Spalte: liegnr |  |
+| mieteinheit | File: mietfall Spalte: objnr |  |
+| mietverhaeltnis_mietbeginn | File: mietfall Spalte: einzug |  |
+| datum | File: mieterop.csv Spalte: faelldat | Jeweils der letzte Tag des Monats gemäss dem ältesten vorhanden „faelldat“-Eintrag. |
+| prozedur_status | File: mieter.csv Spalte: freieFelderdicid01 | Wertetabelle gemäss Vorgabe: {1} Anklage, {2} Kündigung, {3} Kündigung-Anklage, {4} Räumung, {5} Ausstellung von Verlustscheinen |
+| abgeschlossen_am | File: mieter.csv Spalte: date01 |  |
+| betrag | File: mieter.csv Spalte: betrag01 |  |
+| notiz | File: mieter.csv Spalte: string01 |  |
 
 **Freie Spalten:**
 Tabelle „mieter“ (file:mieter.csv)
@@ -197,7 +207,7 @@ Spalte: expktohauptbuch
 
 # Exportmechanismus
 Der Exportmechanismus kann manuell gesteuert werden. Die Selektionsmaske ist von der Standardschnittstelle MIS-Export vorgegeben:
- ![ExportMechanism](/_grafiken/Exportmechanismus_Vaudoise.png)
+ ![ExportMechanism](/_grafiken/ExportMechanism.png)
 
 Der Export kann ebenfalls als Job geplant werden.
 

@@ -72,6 +72,9 @@ Die Konfiguration der zu exportierenden Tabellen/Views kann während der Laufzei
 Somit sind zukünftige Datenerweiterungen derselben Schnittstelle auf einfachste Art und Weise realisierbar.
 
 Der Export der Daten muss einmalig eingerichtet werden.
+Steuer.ini und Konfig Datei: <br>
+[konfig.dat](konfig%20MIS/dat-Files/konfig.dat)<br>
+[STEUER_MIS.INI](konfig%20MIS/dat-Files/STEUER_MIS.INI)<br>
 
 ### FTP Verbindung
 Im Rimo kann eine FTP Verbindung (Protokolle wie FTP oder sFTP mit TLS/SSL v3) eingerichtet werden.

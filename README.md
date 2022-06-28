@@ -13,14 +13,9 @@ Table of contents
 
 <!--te-->
 # Derivate zum MIS Export
-- [Jarowa](_derivate/jarowa#readme)
-- [Imofix](_derivate/imofix#readme)
-- [Allthings](_derivate/allthings#readme)
-- [Assetti](_derivate/assetti#readme)
 - [Wüest Partner](_derivate/wuestpartner#readme)
 - [Reamis](_derivate/reamis#readme)
 - [IAZI](_derivate/iazi#readme)
-- [Vaudoise](_derivate/vaudoise#readme)
 
 # Konzept Rimo
 Die Schnittstelle MIS-Export exportiert Daten aus Tabellen oder Views, aus Rimo in CSV-Files ins lokale Dateisystem.

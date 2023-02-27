@@ -69,7 +69,7 @@ Die benötigten View können per Script [CreateViewsWP_ANY.sql](CreateViewsWP_AN
 
 # Exportmechanismus
 Der Exportmechanismus kann manuell gesteuert werden. Die Selektionsmaske ist von der Standardschnittstelle MIS-Export vorgegeben:
-![ExportMechanism](/_grafiken/ExportMechanism.png)
+![ExportMechanism](/_grafiken/ExportMechanism2.png)
 Die Selektion des Exports kann nur mittels Liegenschaftsnummer eingegrenzt werden. Eine periodische Eingrenzung ist nicht möglich – es werden somit immer sämtliche Datensätze einer Tabelle (inkl. Historydaten) exportiert.
 
 Der Export kann ebenfalls als Job geplant werden.
